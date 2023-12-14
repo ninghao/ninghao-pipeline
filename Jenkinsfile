@@ -1,3 +1,3 @@
 {
-  pipelins
+  pipelins~
 }
