@@ -5,7 +5,7 @@ gulp.task('watch', () => {
   // 监视文件变化
   gulp.watch(['Jenkinsfile', 'jenkins/**/*'], (event) => {
     // 执行 Git 提交并推送
-    console.log('File(s) changed:', event.path);
+    console.log('File(s) changed～～:', event);
 
     gulp
       .src('.')
