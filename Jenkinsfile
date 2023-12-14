@@ -1,4 +1,8 @@
 pipeline {
   agent any
-  stages {}
+  stages {
+    stage('演示') {
+      sh "echo hello~"
+    }
+  }
 }

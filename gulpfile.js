@@ -9,7 +9,9 @@ gulp.task('watch', () => {
       .pipe(git.add())
       .pipe(git.commit('自动提交'))
       .on('end', function () {
-        git.push('origin', 'main');
+        git.push('origin', 'main', () => {
+          cb();
+        });
       });
   });
 });
