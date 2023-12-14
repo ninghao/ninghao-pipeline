@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('🎡 演示流水线') {
-            sh "echo hello"
+            sh "echo 你好～"
         }
     }
 }
