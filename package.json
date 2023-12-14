@@ -1,0 +1,17 @@
+{
+  "name": "ninghao-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-git": "^2.10.1",
+    "gulp-watch": "^5.0.1"
+  }
+}
