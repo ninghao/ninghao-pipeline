@@ -11,7 +11,7 @@ gulp.task('watch', function () {
       .pipe(git.add())
       .pipe(git.commit('Jenkinsfile updated'))
       .on('end', function () {
-        git.push('origin', 'master', function (err) {
+        git.push('origin', 'main', function (err) {
           if (err) {
             return cb(err);
           }
